@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.car {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    bottom: 120px;
+    background-image: url(./img/pngwing.com.png);
+    background-size: cover;
+}
+
+.GameArea {
+    width: 100%; /* Adjust to full width */
+    height: 100vh;
+    background-color: rgb(29, 26, 26);
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}
+
+.lines {
+    width: 10px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 50%; /* Adjust to center */
+    transform: translateX(-50%); /* Adjust to center */
+}
+
+.CarGame {
+    background-image: url(./img/pixel-art-game-background-with-ground-sunset-landscape-sky-clouds-silhouette-city-stars-moon-backgro.jpg);
+    background-size: cover;
+}
+
+.other {
+    width: 20%; /* Adjust width for smaller screens */
+    max-width: 100px; /* Set maximum width */
+    height: auto; /* Adjust height for smaller screens */
+    background-image: url('./img/pngtree-red-sports-car-top-view-png-image_6564079.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 10%; /* Adjust bottom distance */
+    left: 50%; /* Adjust left position */
+    transform: translateX(-50%); /* Adjust left position */
+    z-index: 5;
+}
+
+.Score {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 4vw; /* Adjust font size for smaller screens */
+    line-height: 1.2;
+    background-color: rgba(34, 119, 8, 0);
+    color: white;
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 300px; /* Set maximum width */
+    height: 15%; /* Adjust height for smaller screens */
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.StartScreen {
+    position: absolute;
+    background-color: rgba(79, 18, 154, 0);
+    color: white;
+    z-index: 1;
+    margin-top: 10%; /* Adjust margin for smaller screens */
+    margin-left: 5%; /* Adjust margin for smaller screens */
+    text-align: center;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    font-size: 4vw; /* Adjust font size for smaller screens */
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 400px; /* Set maximum width */
+    height: 30%; /* Adjust height for smaller screens */
+    cursor: pointer;
+    border-radius: 23px;
+}
+
+.Username {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: white;
+    font-size: 2vw; /* Adjust font size for smaller screens */
+}
+
+button {
+    padding: 2vw; /* Adjust padding for smaller screens */
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.HomeScreen {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    padding: 2vw; /* Adjust padding for smaller screens */
+    font-size: 2vw; /* Adjust font size for smaller screens */
+    color: #ff0000; /* Replace with your desired color code */
+    text-decoration: none;
+}

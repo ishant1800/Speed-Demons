@@ -1,0 +1,38 @@
+.StartScreen {
+    position: absolute;
+    background-color: rgba(58, 8, 119, 0.952);
+    color: white;
+    z-index: 1;
+    margin-top: 15%; 
+    margin-left: 10%; 
+    text-align: center;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    font-size: 2em; 
+    width: 80%; 
+    height: 200px; 
+    cursor: pointer;
+    border-radius: 23px;
+}
+
+body {
+    background-image: url('./img/pixel-art-game-background-with-ground-sunset-landscape-sky-clouds-silhouette-city-stars-moon-backgro.jpg');
+}
+
+.ok-button {
+    color: #ff0000;
+    font-size: 1.5em; 
+}
+
+@media screen and (max-width: 600px) {
+    .StartScreen {
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 1.5em;
+        width: 90%;
+        height: 150px;
+    }
+
+    .ok-button {
+        font-size: 1em;
+    }
+}

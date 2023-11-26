@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Irish Grover:wght@400&display=swap" />
+
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="macbook-air-1">
+        <img class="hd-wallpaper-cars-movie-queen-icon" alt="" src="./img/ezgif.com-gif-maker.jpg" />
+
+        <i class="speed-demons">Speed Demons</i>
+
+        <div class="rectangle-group">
+            <div class="input-box">
+                <label for="name">Enter Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="input-box">
+                <label for="username">Enter Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
+        </div>
+
+        <a href="page.html" class="start-button" onclick="saveUsername()">
+            <i>Start here</i>
+        </a>
+    </div>
+
+    <audio id="backgroundmusic" autoplay loop>
+        <source src="./music/0528. City Lights - AShamaluevMusic.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function saveUsername() {
+            // Get the values from the input fields
+            var name = document.getElementById("name").value;
+            var username = document.getElementById("username").value;
+
+            // Save the username to local storage
+            localStorage.setItem("username", username);
+
+            // Optionally, you can also save the name to local storage
+            localStorage.setItem("name", name);
+        }
+    </script>
+</body>
+
+</html>

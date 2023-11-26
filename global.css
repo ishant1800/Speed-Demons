@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-inter: Inter;
+  --font-irish-grover: "Irish Grover";
+
+  --font-size-5xl: 24px;
+
+  --color-white: #fff;
+  --color-steelblue: #088ac1;
+
+  --br-mini: 15px;
+}
+
+.macbook-air-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: auto; 
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px; 
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+.speed-demons {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 3em; 
+}
+
+@media screen and (max-width: 600px) {
+  .macbook-air-1 {
+      font-size: 14px;
+  }
+
+  .speed-demons {
+      font-size: 2em;
+  }
+  
+}

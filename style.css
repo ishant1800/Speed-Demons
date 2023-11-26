@@ -1,0 +1,128 @@
+@media only screen and (max-width: 768px) {
+  .hd-wallpaper-cars-movie-queen-icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .speed-demons {
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+  }
+
+  .rectangle-group,
+  .rectangle-parent {
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .start-button {
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+.hd-wallpaper-cars-movie-queen-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1500px;
+  height: 1200px;
+  object-fit: cover;
+}
+.hd-wallpaper-cars-movie-queen-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1500px;
+  height: 1200px;
+  object-fit: cover;
+}
+.speed-demons {
+  position: absolute;
+  top: 140px;
+  left: 545px;
+  font-size: 70px;
+  font-weight: 700;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-steelblue);
+  width: 231px;
+  height: 54px;
+  opacity: 0.4;
+  /* mix-blend-mode: linear-burn; */
+  cursor: pointer;
+}
+.enter-name {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.rectangle-group,
+.rectangle-parent {
+  position: absolute;
+  top: 252px;
+  left: 565px;
+  width: 231px;
+  height: 54px;
+  font-family: var(--font-irish-grover);
+}
+.rectangle-group {
+  top: 325px;
+}
+.information-icon,
+.start-here {
+  position: absolute;
+  cursor: pointer;
+}
+.start-button {
+  position: absolute;
+  top: 600px;
+  left: 560px;
+  padding: 10px 20px;
+  background-color: rgb(23, 36, 130);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* Ensure the button takes only the necessary space */
+}
+
+.start-button:hover {
+  background-color: rgb(8, 8, 8);
+}
+
+.start-button i {
+  font-size: 36px;
+  font-weight: 900;
+  color: #ffffff;
+  -webkit-text-stroke: 1px rgb(6, 6, 6);
+}
+
+
+.information-icon {
+  top: 17px;
+  left: 13px;
+  width: 40.7px;
+  height: 35px;
+  object-fit: cover;
+}
+.macbook-air-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
